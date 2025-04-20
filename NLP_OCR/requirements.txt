@@ -1,2 +1,5 @@
+streamlit
 pytesseract
-googletrans
+Pillow
+pdf2image
+googletrans==4.0.0-rc1
