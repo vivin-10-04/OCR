@@ -4,6 +4,7 @@ import pytesseract
 from googletrans import Translator
 import tempfile
 import os
+import shutil
 
 tesseract_path = shutil.which('tesseract')
 st.write("🔍 Tesseract path found:", tesseract_path)
