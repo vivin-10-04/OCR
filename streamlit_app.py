@@ -6,15 +6,8 @@ import tempfile
 import os
 import shutil
 
-tesseract_path = shutil.which('tesseract')
-st.write("🔍 Tesseract path found:", tesseract_path)
-
-if not tesseract_path:
-    st.error("❌ Tesseract is not installed or not found in PATH!")
-else:
-    st.success("✅ Tesseract is installed and found.")
 # Title
-st.title("OCR & Translation App ")
+st.title("OCR & Translation ")
 st.markdown("Upload an image or PDF, extract English text and translate it to Hindi.")
 
 # Upload file
